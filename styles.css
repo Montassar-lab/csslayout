@@ -1,0 +1,284 @@
+img {
+    width: 300px;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    top :0;
+    position: sticky;
+    background-color: white;
+}
+
+a {
+    font-size: 20px;
+    text-decoration: none;
+    color: gray;
+    padding: 6px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav1 {
+    display: flex;
+    align-items: center;
+}
+
+#Aboutus{
+    color: aqua;
+}
+
+.a1:hover {
+    color: aqua;
+}
+
+.main1{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.main1 .sous-main1 img{
+width: 36px;
+}
+
+.main1 .sous-main1 p{
+    font-size: 161%;
+    color: aqua;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sous-main1-2{
+    display: flex;
+    justify-content: center;
+    line-height: 33px;
+    margin-left: 15%;
+    margin-right: 15%;
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sous-main1-2 p{
+    padding: 10px;
+}
+
+.main2{
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sousmain21{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    background-color: #00b39b;
+    margin: 11px;
+    width: 310px;
+}
+
+.sousmain22{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    background-color:#3d83df;
+    margin: 11px;
+    width: 310px;
+
+}
+
+.sousmain23{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    background-color: rgb(39, 41, 68);
+    margin: 11px;
+    width: 310px;
+}
+
+.main2 p, h3, h4{
+    margin: 20px;
+}
+
+h4 {
+    text-decoration: underline;
+}
+
+.main3{
+    display: flex;
+    justify-content: center;
+}
+
+.sousmain31:hover{
+    fill:aqua ;
+}
+
+.main3{
+    display: flex;
+    justify-content: center;
+}
+
+.sousmain3 {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-left: 48px;
+}
+
+.main3 h2{
+    color: aqua;
+    display: flex;
+    align-items: center;
+    margin-right: 54px;
+}
+
+.main3 img{
+    width: 50px;
+}
+
+.main4 {
+    background-color: #e5faf8;
+}
+
+.main4intro img {
+    width: 450px;
+    position: relative;
+    left: 182px;
+}
+
+#main4p1 {
+    font-size: 2.125rem;
+    color: #00b39b;
+    position: relative;
+    padding: 40px;
+    left: 182px;
+}
+
+#main4p2{
+    font-family: Roboto,Arial,sans-serif;
+    color: #747474;
+    font-size: 14px;
+    position: relative;
+    left: 221px;
+}
+
+.main4tablo {
+    width: 249px;
+    height: 221px;
+}
+
+.main4 {
+    display: flex;
+    flex-direction: row;
+}
+
+.main4tablo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    left: 283px;
+    top: 46px;
+}
+
+#sousmain4tablo2 {
+    position: relative;
+    left: -207px;
+    bottom: -283px;
+}
+
+#sousmain4tablo3 {
+    position: relative;
+    top: -45px;
+    left: -134px;
+}
+
+#sousmain4tablo4 {
+position: relative;
+left: -335px;
+bottom: -238px;
+}
+
+.main5 {
+    margin: 36px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#main5p1 {
+    font-size: 2.125rem;
+    color: #00b39b;
+}
+
+#main5p2 {
+    font-family: Roboto,Arial,sans-serif;
+    color: #747474;
+    font-size: 14px;
+    line-height: 33px;
+}
+
+.main61 {
+    width: 75%;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    left: 270px;
+}
+
+.main61 img {
+    margin: 20px;
+}
+
+.main7 p{
+    font-size: 2.1428571429em;
+    color: #333;
+    margin-bottom: 0.75em;
+}
+
+button {
+    padding: 10px;
+    background: #3d83df;
+    font-family: Roboto,Arial,sans-serif;
+    color: white;
+    border: none;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.main7 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    color: #ababab;
+    font-size: 12px;
+    position: relative;
+    bottom: -67px;
+}
+
+.footer1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.footerlink:hover {
+    color: #00b39b;
+    text-decoration: underline;
+}
+
+.footer2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#footersite {
+    margin: 0px;
+}
